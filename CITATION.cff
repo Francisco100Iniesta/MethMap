@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Si utilizas MethMap, cita el repositorio y la versión empleada."
+type: software
+title: "MethMap: referencias de metilación específicas de tejido para hg38"
+authors:
+  - family-names: "Iniesta"
+    given-names: "Francisco"
+version: 0.1.0
+repository-code: "https://github.com/Francisco100Iniesta/MethMap"
+keywords:
+  - DNA methylation
+  - 5mC
+  - long-read sequencing
+  - hg38
+  - tissue-specific reference
