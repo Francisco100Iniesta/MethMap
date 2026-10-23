@@ -1,0 +1,73 @@
+{
+  "description": "Checksums of the original source scripts reviewed before adaptation. No cohort files included.",
+  "files": {
+    "README": {
+      "sha256": "5e95c510060240ab1f29e2257dc26250cd90afbbe7bd379ee629e761e21f516f",
+      "bytes": 1603
+    },
+    "full.sh": {
+      "sha256": "335a2e80152a19f658a7205b4e27543df5409668d3b33b7a34cfc51cc7aa170a",
+      "bytes": 1321
+    },
+    "adding.sh": {
+      "sha256": "d5bf8670644d4a29e579501409ecc359590c02b65907e3919df55a0d45bf5daa",
+      "bytes": 916
+    },
+    "samples/README": {
+      "sha256": "87cf6830d680054cd3914a8691d5ad226bba9b26ec1d1797d9ec105f4668f7f9",
+      "bytes": 534
+    },
+    "samples/chromosomes_list.csv": {
+      "sha256": "5d3c1658dd9635c590dfbb5e041fb8da017832cb1d10489a09ace5f6036ac633",
+      "bytes": 377
+    },
+    "scripts/Add_info.R": {
+      "sha256": "68163b80797b924620406dbb999d01ad0521e6ecb5703e6f6719bb02a845d0fc",
+      "bytes": 1157
+    },
+    "scripts/baseconstructor.R": {
+      "sha256": "c1649f8b0d94c85bd09967c91c2cf853c032c9645105d731f2ea4b50ee2365bb",
+      "bytes": 868
+    },
+    "scripts/procesador.R": {
+      "sha256": "597e21c5b384a33e1ad43216209c6841cb14502ecaecf6a5b7e0eca445091584",
+      "bytes": 781
+    },
+    "scripts/rds_to_bed.R": {
+      "sha256": "89e60e0f6c79f765ea165efaa5c8847fee7e6a42023aff54c46b9c223a5599bd",
+      "bytes": 1885
+    },
+    "submits/referenceINICIAL_meth.sh": {
+      "sha256": "74935c40faeccb43f78e1a415b78003040cf921e49d9fea2e791e1541fe323c4",
+      "bytes": 567
+    },
+    "submits/submit.sh": {
+      "sha256": "f9e676b112a64234b3239cb942bc43db4e6ecf5eb164ca310b898939258f1b1a",
+      "bytes": 977
+    },
+    "submits/submit_MET.sh": {
+      "sha256": "4b374b0b928573b4d98ecc687e0ade3eaf2f56a337d97a8184cf12ebed20da4d",
+      "bytes": 555
+    },
+    "submits/submit_MET_new.sh": {
+      "sha256": "9cc3ee90b3b6379c001127b9a6ac3c15e252cb0f7b8d3fc0a5f1e8d072db35b3",
+      "bytes": 558
+    },
+    "submits/submit_refconstructor_add.sh": {
+      "sha256": "724a2e9d0ef2b815868f3bb8c64c1c850247c768a92c633cab05249f58f82749",
+      "bytes": 1079
+    },
+    "submits/submit_refconstructor_add_new.sh": {
+      "sha256": "323792543c128420aa83c7215f275f0aa0052264fb0e5556363e9f79b1fa52cd",
+      "bytes": 1085
+    },
+    "submits/submit_refconstructor_inicial.sh": {
+      "sha256": "d202ac51da49c2572a60c86eceb7e976cd54bd1d25e83e850cd1852078497546",
+      "bytes": 1153
+    },
+    "submits/transform_to_bed.sh": {
+      "sha256": "d1367eef570eb12d588d0613b9e06eea885ddbaf595d6c4c79ff5b12f5798247",
+      "bytes": 574
+    }
+  }
+}

@@ -1,0 +1,4 @@
+sample_id	tissue	path
+sample01	BLOOD	/data/blood/sample01.mod.bam
+sample02	BLOOD	/data/blood/sample02.mod.bam
+sample03	INTESTINE	/data/intestine/sample03.mod.bam
