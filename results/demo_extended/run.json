@@ -1,0 +1,151 @@
+{
+  "command": "add",
+  "tissue": "DEMO",
+  "assembly": "synthetic",
+  "reference": {
+    "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/synthetic.fa",
+    "sha256": "33e857782f51601c3345ff6f83af79188f402d6bf7dececfec500e274e0c8c88",
+    "fai_sha256": "22fe9d7d3b2f9bbfa13ef999b0894951fa916bc0bfa08335eba49fc66a888bed"
+  },
+  "chromosomes": {
+    "chr1": 2000,
+    "chr2": 500
+  },
+  "new_samples": [
+    {
+      "sample_id": "sample07",
+      "tissue": "DEMO",
+      "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/sample07.bedmethyl",
+      "input_format": "bedmethyl",
+      "bytes": 9219
+    }
+  ],
+  "total_samples": 7,
+  "output": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/results/demo_extended",
+  "min_coverage": 10,
+  "min_samples": 1,
+  "bigwig": false,
+  "threads": 4,
+  "jobs": 2,
+  "schema_version": 1,
+  "status": "complete",
+  "version": "0.1.0",
+  "created_utc": "2026-10-22T16:39:41.747106+00:00",
+  "samples": [
+    {
+      "sample_id": "sample01",
+      "tissue": "DEMO",
+      "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/sample01.bedmethyl",
+      "input_format": "bedmethyl",
+      "bytes": 9129
+    },
+    {
+      "sample_id": "sample02",
+      "tissue": "DEMO",
+      "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/sample02.bedmethyl",
+      "input_format": "bedmethyl",
+      "bytes": 9160
+    },
+    {
+      "sample_id": "sample03",
+      "tissue": "DEMO",
+      "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/sample03.bedmethyl",
+      "input_format": "bedmethyl",
+      "bytes": 9160
+    },
+    {
+      "sample_id": "sample04",
+      "tissue": "DEMO",
+      "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/sample04.bedmethyl",
+      "input_format": "bedmethyl",
+      "bytes": 9098
+    },
+    {
+      "sample_id": "sample05",
+      "tissue": "DEMO",
+      "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/sample05.bedmethyl",
+      "input_format": "bedmethyl",
+      "bytes": 9098
+    },
+    {
+      "sample_id": "sample06",
+      "tissue": "DEMO",
+      "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/sample06.bedmethyl",
+      "input_format": "bedmethyl",
+      "bytes": 9099
+    },
+    {
+      "sample_id": "sample07",
+      "tissue": "DEMO",
+      "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/examples/demo/sample07.bedmethyl",
+      "input_format": "bedmethyl",
+      "bytes": 9219
+    }
+  ],
+  "modkit_policy": {
+    "seed": 42,
+    "filter_percentile": 0.1
+  },
+  "sample_qc": [
+    {
+      "sample_id": "sample01",
+      "input_rows": 148,
+      "selected_5mc_rows": 146,
+      "below_coverage": 1,
+      "retained_loci": 145
+    },
+    {
+      "sample_id": "sample02",
+      "input_rows": 148,
+      "selected_5mc_rows": 146,
+      "below_coverage": 1,
+      "retained_loci": 145
+    },
+    {
+      "sample_id": "sample03",
+      "input_rows": 148,
+      "selected_5mc_rows": 146,
+      "below_coverage": 1,
+      "retained_loci": 145
+    },
+    {
+      "sample_id": "sample04",
+      "input_rows": 147,
+      "selected_5mc_rows": 145,
+      "below_coverage": 1,
+      "retained_loci": 144
+    },
+    {
+      "sample_id": "sample05",
+      "input_rows": 147,
+      "selected_5mc_rows": 145,
+      "below_coverage": 1,
+      "retained_loci": 144
+    },
+    {
+      "sample_id": "sample06",
+      "input_rows": 147,
+      "selected_5mc_rows": 145,
+      "below_coverage": 1,
+      "retained_loci": 144
+    },
+    {
+      "sample_id": "sample07",
+      "input_rows": 149,
+      "selected_5mc_rows": 147,
+      "below_coverage": 1,
+      "retained_loci": 146
+    }
+  ],
+  "empty_tracks": [],
+  "tool_versions": {
+    "methmap": "0.1.0",
+    "python": "3.13.13",
+    "R": "Rscript (R) version 4.6.0 (2026-04-24)",
+    "data.table": "1.18.6.1"
+  },
+  "parent": {
+    "path": "/home/francisco-iniesta/Documentos/ChatGPT/MethMap/github/results/demo",
+    "run_sha256": "ffe3c6831c68f348bc5bf56afcc5afd9835ed7db190a1f336ed397f49f78bebb"
+  }
+}
